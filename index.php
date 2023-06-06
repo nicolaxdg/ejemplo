@@ -9,6 +9,9 @@
     $records->execute();
     $results = $records->fetch(PDO::FETCH_ASSOC);
 
+    
+    
+    
     $user = null;
 
     if (count($results) > 0) {
